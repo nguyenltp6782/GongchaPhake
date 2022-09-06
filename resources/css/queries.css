@@ -1,0 +1,168 @@
+/*max 1200px*/
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+    .heading-main-box{
+        transform: translate(10%, 0);
+    }
+    form{
+        margin-left: 20%;
+    }
+}
+/*max 1023px*/
+@media only screen and (max-width:1023px){
+    .logo{
+        width: 200px;
+    }
+    .main.nav{
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+    .main.nav li{
+        margin-right: 10px;
+    }
+    .heading-main-box{
+        transform: translate(10%, 20%);
+    }
+    .p-long{
+        font-size: 120%;
+    }
+    .hire-box .button{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .hire-box ul li {
+        margin-left: 20px;
+    }
+    cite img{
+        height: 40px;
+        width: 40px;
+    }
+    cite{
+        font-weight: 500;
+        font-size: 90%;
+    }
+    blockquote{
+        font-size: 90%;
+    }
+    label{
+        font-size: 90%;
+    }
+    input[type=text], textarea {
+        width: 190px;
+        font-size: 90%;
+    }
+    .information{
+        margin-left: 50px;
+    }
+    .information li{
+        font-size: 10px;
+    }
+}
+/*max 767px*/
+@media only screen and (max-width:767px){
+    .col{
+        width: 100%;
+    }   
+    .logo{
+        margin-left: 120px;
+        width: 250px;
+    }
+    .heading-main-text{
+        font-size: 200%;
+    }
+    .heading-main-box .button{
+        width: 160px;
+        font-size: 90%;
+    }
+    .sticky{
+        height: 170px;
+    }
+    h3{
+        font-size: 200%;
+    }
+    .hire-box ul li{
+        margin-left: 100px;
+    }
+    blockquote{
+        margin-bottom: 20px;
+        font-size: 120%;
+    }
+    cite img{
+        width: 60px;
+        height: 60px;
+    }
+    cite{
+        font-size: 100%;
+        font-weight: 600;
+    }
+    .contact li img{
+        width: 70px;
+        border-radius: 18px;
+    }
+    figcaption{
+        font-size: 80%;
+    }
+    .information{
+        margin-top: 100px;
+    }
+    form{
+        width: 90%;
+        margin-left: 10px;
+    }
+    input[type=text], textarea{
+        width: 320px;
+    }
+    .p-long{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    input[type=submit] {
+        margin-left: -150px;
+        width: 200px;
+    }
+}
+/*max 480px*/
+@media only screen and (max-width:480px){
+    html{
+        font-size: 12px;
+    }
+    .sticky{
+        height: 210px;
+    }
+    .logo{
+        width: 150px;
+        margin-left: 20px;
+    }
+    .heading-main-text{
+        font-size: 250%;
+    }
+    .heading-main-box .button{
+        display: block;
+        margin-top: 10px;
+    }
+    .hire-box ul li{
+        margin-left: 40px;
+    }
+    .contact li img{
+        width: 40px;
+        border-radius: 13px;
+    }
+    figcaption{
+        font-size: 70%;
+    }
+    input[type=text], textarea{
+        width: 180px;
+    }
+    .p-long{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    input[type=submit] {
+        margin-left: 5px;
+    }
+    footer img{
+        width: 100px;
+    }
+}
